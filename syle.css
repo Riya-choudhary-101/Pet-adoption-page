@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-radius;
+    font-family:'Times New Roman', Times, serif;
+}
+a{
+color:goldenrod;
+padding:5px;
+text-decoration:none;
+}
+h3{
+color:black;
+font-size:25px;
+font-weight:bolder;
+padding:5px;
+}
+.spa{
+color:goldenrod;
+
+}
+
+.card{
+width:400px;
+padding:10px;
+margin:10px;
+border-radius:20px;
+border:2px solid black;
+}
+#pet{
+display:flex;
+justify-content:space-evenly;
+}
+
+img{
+width:100%;
+border-radius:25px;
+}
+@media (max-width:375px){
+#pet{
+flex-wrap:wrap;
+}
+}
